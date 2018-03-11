@@ -30,7 +30,7 @@
 // Responsive
 // =============================================================================
 
-@include breakpoint(small) {
+@include bp(sm) {
   .highlight {
     padding: 25px;
     font-size: 14px;

@@ -278,7 +278,7 @@
 // Responsive
 // =============================================================================
 
-@include breakpoint(small) {
+@include bp(sm) {
   .article-list-footer {
     display: block;
   }

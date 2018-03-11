@@ -5,20 +5,20 @@
 // Handling breakpoints for media queries
 // @param {Number} $val the media query specification.
 
-@mixin breakpoint($val) {
-  @if $val == extra-small {
+@mixin bp($val) {
+  @if $val == xs {
     @media all and (max-width: 520px) {
       @content;
     }
-  } @else if $val == small {
+  } @else if $val == sm {
     @media all and (max-width: 767px) {
       @content;
     }
-  } @else if $val == medium {
+  } @else if $val == md {
     @media all and (max-width: 1024px) {
       @content;
     }
-  } @else if $val == large {
+  } @else if $val == lg {
     @media all and (max-width: 1223px) {
       @content;
     }

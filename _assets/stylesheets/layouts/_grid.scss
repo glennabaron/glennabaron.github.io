@@ -91,7 +91,7 @@
 // Responsive
 // =============================================================================
 
-@include breakpoint(small) {
+@include bp(sm) {
   .grid-cell {
     @include responsive-grid-generator();
   }
