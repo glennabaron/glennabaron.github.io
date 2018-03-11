@@ -91,7 +91,7 @@
 // Responsive
 // =============================================================================
 
-@include bp(sm) {
+@include bp(lt-sm) {
   .grid-cell {
     @include responsive-grid-generator();
   }

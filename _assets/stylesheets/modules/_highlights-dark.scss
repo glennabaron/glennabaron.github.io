@@ -30,7 +30,7 @@
 // Responsive
 // =============================================================================
 
-@include bp(sm) {
+@include bp(lt-sm) {
   .highlight {
     font-size: 14px;
   }

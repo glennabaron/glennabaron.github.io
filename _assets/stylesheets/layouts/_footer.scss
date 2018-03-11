@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 35px;
   margin-bottom: 85px;
@@ -16,10 +17,19 @@
   }
 
   .navigation-links {
-    margin-left: auto;
+    flex: 1;
+    display: flex;
+    margin-top: 20px;
+
+    @include bp(sm) {
+      flex: auto;
+      margin-top: 0;
+      margin-left: auto;
+      justify-content: flex-end;
+    }
 
     li {
-      margin-left: 5px;
+      margin-left: 10px;
     }
   }
 }

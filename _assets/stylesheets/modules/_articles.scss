@@ -278,7 +278,7 @@
 // Responsive
 // =============================================================================
 
-@include bp(sm) {
+@include bp(lt-sm) {
   .article-list-footer {
     display: block;
   }
