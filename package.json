@@ -1,0 +1,10 @@
+{
+  "name": "chalk",
+  "scripts": {
+    "setup": "bin/setup",
+    "local": "bundle exec jekyll serve",
+    "publish": "bin/deploy"
+  },
+  "dependencies": {
+  }
+}

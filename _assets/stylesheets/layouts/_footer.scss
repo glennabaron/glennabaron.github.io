@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+  margin-bottom: 85px;
+  border-top: 1px solid $base-border-color;
+
+  p {
+    font-size: 12px;
+    color: $gray-light;
+    letter-spacing: 1px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .navigation-links {
+    margin-left: auto;
+
+    li {
+      margin-left: 5px;
+    }
+  }
+}

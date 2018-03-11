@@ -1,0 +1,70 @@
+// =============================================================================
+// Header
+// =============================================================================
+
+.navigation {
+  display: block;
+  padding: 75px 0 20px;
+  border-bottom: 1px solid $base-border-color;
+}
+
+.navigation-logo {
+  display: inline-block;
+  font-family: $serif;
+  font-size: 28px;
+  color: $navigation-logo-color;
+  text-decoration: none;
+}
+
+.navigation-links {
+  float: right;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    a {
+      font-size: 14px;
+      color: $header-link-color;
+      text-decoration: none;
+
+      svg {
+        width: 16px;
+        height: 16px;
+        fill: $header-link-color;
+      }
+
+      &:hover svg {
+        fill: $header-link-color-hover;
+      }
+    }
+  }
+}
+
+@include breakpoint(extra-small) {
+
+  .navigation {
+    text-align: center;
+  }
+
+  .navigation-links {
+    display: block;
+    float: none;
+    text-align: center;
+
+    li {
+      margin: 0 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
