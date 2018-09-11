@@ -3,6 +3,9 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta itemprop="name" content="{{ page.title | escape }}">
+  <meta itemprop="description" content="{{ page.description }}">
 
   <meta property="og:title" content="{{ page.title | escape }}">
   <meta property="og:type" content="website">
