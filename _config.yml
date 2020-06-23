@@ -1,6 +1,6 @@
 # Mandatory settings
 
-blog_theme: light # Or use dark
+blog_theme: light # light/dark
 name: Glenna Baron
 paginate: 10
 url: glennabaron.com
@@ -16,7 +16,7 @@ rss_enabled: true # Change to false if not
 social:
   github: glennabaron
   twitter: glennabaron
-  instagram: # Add your Instagram handle
+  instagram:
   spotify: glennabaron
 
 

@@ -1,44 +1,14 @@
-// =============================================================================
-// Highlights light
-// =============================================================================
-
 .highlight {
-  padding: 25px;
-  margin: 0;
-  margin: 30px 0;
-  overflow: auto;
-  font-weight: 400;
-  background: lighten($gray-lightest, 6);
-  border-radius: $base-border-radius;
-
-  pre {
-    margin: 0;
-  }
+  background: lighten($color-gray-lightest, 6);
 }
-
-// Inline highlighting
 
 .highlighter-rouge {
-  padding: 2px 4px;
-  font-size: 14px;
   color: #d14;
-  background: lighten($gray-lightest, 6);
-  border: 1px solid $base-border-color;
-  border-radius: 1px;
-}
-
-// Responsive
-// =============================================================================
-
-@include bp(lt-sm) {
-  .highlight {
-    padding: 25px;
-    font-size: 14px;
-  }
+  background: lighten($color-gray-lightest, 6);
 }
 
 // Highlighting types
-// =============================================================================
+// ==============================
 
 // Comment
 

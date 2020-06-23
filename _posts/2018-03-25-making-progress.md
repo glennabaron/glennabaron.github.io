@@ -7,7 +7,7 @@ tags: [neat-things]
 
 1. The most straightforward explanation I’ve read about what’s gone on with [Facebook and Cambridge Analytica](https://www.nytimes.com/2018/03/19/opinion/facebook-cambridge-analytica.html){:target="_blank"}.
 
-2. Cait and Carrie’s podcast, straightforwardly titled “[Honest Money Conversations](https://honestmoneypodcast.com){:target="_blank"}“, is one of my favorites. One of their latest episodes on [consuming mindfully](https://honestmoneypodcast.com/consuming-mindfully){:target="_blank"} reminded me that it's impossible to stay date on well, everything. I've tried to cut back the amount I was saving and reading online the past few weeks, which explains why this post is "late" (I told myself I would do a "neat things" post every week).
+2. Cait and Carrie’s podcast, straightforwardly titled “[Honest Money Conversations](https://honestmoneypodcast.com){:target="_blank"}“, is one of my favorites. One of their latest episodes on [consuming mindfully](https://honestmoneypodcast.com/consuming-mindfully){:target="_blank"} reminded me that it's impossible to stay up to date on well, everything. I've tried to cut back the amount I was saving and reading online the past few weeks, which explains why this post is "late" (I told myself I would do a "neat things" post every week).
 
 3. On that note, [The Very Important Longread Everyone is Talking About](https://www.mcsweeneys.net/articles/i-am-the-very-important-longread-everyone-is-talking-about){:target="_blank"}.
 

@@ -1,50 +1,21 @@
-// =============================================================================
-// Highlights dark
-// =============================================================================
-
 .highlight {
-  padding: 25px;
-  margin: 0;
-  margin: 30px 0;
-  overflow: auto;
-  font-weight: 400;
-  background-color: darken($gray-darkest, 5);
-  border-radius: $base-border-radius;
-
-  pre {
-    margin: 0;
-  }
+  background-color: darken($color-gray-darkest, 5);
 }
-
-// Inline highlighting
 
 .highlighter-rouge {
-  padding: 2px 4px;
-  font-size: 14px;
   color: #f92672;
-  background: darken($gray-darkest, 5);
-  border: 1px solid $base-border-color;
-  border-radius: 1px;
-}
-
-// Responsive
-// =============================================================================
-
-@include bp(lt-sm) {
-  .highlight {
-    font-size: 14px;
-  }
+  background: darken($color-gray-darkest, 5);
 }
 
 // Highlighting types
-// =============================================================================
+// ==============================
 
 .highlight pre {
-  background-color: darken($gray-darkest, 5);
+  background-color: darken($color-gray-darkest, 5);
 }
 
 .highlight .hll {
-  background-color: darken($gray-darkest, 5);
+  background-color: darken($color-gray-darkest, 5);
 }
 
 // Comment

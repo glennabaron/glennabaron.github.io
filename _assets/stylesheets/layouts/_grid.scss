@@ -1,5 +1,5 @@
 // Settings
-// =============================================================================
+// ==============================
 
 // Create widths for each column.
 
@@ -36,7 +36,7 @@
 }
 
 // Component
-// =============================================================================
+// ==============================
 
 .grid {
   display: block;
@@ -47,7 +47,7 @@
 }
 
 // Descendants
-// =============================================================================
+// ==============================
 
 // Creates a grid cell. Add `with-[x]co`l to define the number of coloms the
 // cell needs to span. Do not use 'with-[x]col` if you wish to span the entire
@@ -89,9 +89,9 @@
 }
 
 // Responsive
-// =============================================================================
+// ==============================
 
-@include bp(lt-sm) {
+@include mq(lt-sm) {
   .grid-cell {
     @include responsive-grid-generator();
   }

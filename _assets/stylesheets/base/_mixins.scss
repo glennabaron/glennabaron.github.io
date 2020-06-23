@@ -1,11 +1,11 @@
-// =============================================================================
+// ==============================
 // Mixins
-// =============================================================================
+// ==============================
 
 // Handling breakpoints for media queries
 // @param {Number} $val the media query specification.
 
-@mixin bp($val) {
+@mixin mq($val) {
   @if $val == lt-xs {
     @media all and (max-width: 520px) {
       @content;

@@ -5,7 +5,7 @@
 
 .article-list {
   display: block;
-  padding: 50px 0;
+  padding: 0;
   list-style: none;
 
   li {
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 60px 0 0 0;
+    padding: 40px 0 0 0;
 
     &:first-child {
       padding-top: 0;
@@ -24,7 +24,7 @@
     }
 
     &.article-pagination {
-      display: table;
+      margin-bottom: 50px;
       width: 100%;
 
       a {
@@ -32,7 +32,7 @@
         padding-top: 6px;
         font-size: 11px;
         letter-spacing: .1em;
-        color: $gray;
+        color: $color-gray;
         text-decoration: none;
         text-transform: uppercase;
         transition: color $base-transition-speed linear;
@@ -42,7 +42,7 @@
           height: 16px;
           vertical-align: middle;
           margin: -2px 8px 0 8px;
-          fill: $gray;
+          fill: $color-gray;
         }
 
         &:hover svg {
@@ -100,6 +100,8 @@
 .article-list-footer {
   display: block;
 
+
+
   span,
   a {
     display: inline-block;
@@ -124,12 +126,23 @@
 }
 
 .article-list-divider {
-  margin: 0 15px;
+  margin: 0 5px;
+
+  &:last-of-type {
+    display: none;
+  }
 }
 
 .article-list-tags {
-  display: inline-block;
-  vertical-align: top;
+  display: block;
+  margin-top: -7px;
+
+  @include mq('sm') {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-left: 10px;
+  }
 
   .article & {
     display: block;
@@ -139,12 +152,12 @@
   a {
     display: inline-block;
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-decoration: none;
     vertical-align: middle;
 
     &:hover {
-      color: #121111;
+      color: $color-gray-darkest;
     }
   }
 }
@@ -153,19 +166,12 @@
   display: block;
   margin: 100px 0;
   font-style: italic;
-  color: $gray-light;
+  color: $color-gray-light;
   text-align: center;
 }
 
-// Paginator
-// =============================================================================
-
-.article-pagination-right {
-  float: right;
-}
-
 // Article page
-// =============================================================================
+// ==============================
 
 .article-header {
   display: block;
@@ -208,7 +214,7 @@
   h4 {
     display: block;
     margin-bottom: 10px;
-    font-family: $serif;
+    font-family: $sans-serif;
     color: $article-post-titles-color;
   }
 
@@ -265,30 +271,12 @@
     svg {
       vertical-align: middle;
       transition: fill $base-transition-speed linear;
-      fill: $gray-light;
+      fill: $color-gray-light;
       width: 20px;
     }
 
     &:hover svg {
-      fill: $gray-dark;
+      fill: $color-gray-dark;
     }
-  }
-}
-
-// Responsive
-// =============================================================================
-
-@include bp(lt-sm) {
-  .article-list-footer {
-    display: block;
-  }
-
-  .article-list-divider:last-of-type {
-    display: none;
-  }
-
-  .article-list-tags {
-    display: block;
-    margin-top: -7px;
   }
 }

@@ -1,0 +1,58 @@
+// ==============================
+// Variables
+// ==============================
+
+// Typography
+// ==============================
+
+$sans-serif: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+$serif: Courier, monospace, serif;
+$base-font-family: $sans-serif;
+$base-font-weight: 400;
+$base-font-weight-bold: 600;
+
+// Colors
+// ==============================
+
+// Brand colors
+$brand-success: #1fbf92;
+$brand-danger: #e74b3c;
+$brand-primary: #3449ed;
+$brand-warning: #f1c90b;
+
+// Highlight colors
+$color-highlight-yellow: #fffd9b;
+$color-highlight-blue: #d9f3f9;
+
+// Shades of gray
+$color-black: #000;
+$color-gray-darkest: #121111;
+$color-gray-darker: lighten($color-gray-darkest, 15);
+$color-gray-dark: lighten($color-gray-darkest, 30);
+$color-gray: lighten($color-gray-darkest, 45);
+$color-gray-light: lighten($color-gray-darkest, 60);
+$color-gray-lighter: lighten($color-gray-darkest, 75);
+$color-gray-lightest: lighten($color-gray-darkest, 85);
+$color-white: #fff;
+
+// Sizes
+// ==============================
+
+// Grid
+$columns: 12;
+$max-width: 650px;
+$gutter: 20px;
+$one-column: 100% / $columns;
+$negative-gutter: 0 - $gutter;
+
+// Font sizes
+$base-font-size: 16px;
+$base-line-height: 1.8;
+
+// Box sizes
+$base-border-radius: 4px;
+
+// Effects
+// ==============================
+
+$base-transition-speed: .2s;
