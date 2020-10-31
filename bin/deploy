@@ -8,12 +8,12 @@ set -e
 
 echo "Started deploying"
 
-# Checkout master branch.
-if [ `git branch | grep master` ]
+# Checkout main branch.
+if [ `git branch | grep main` ]
 then
-  git branch -D master
+  git branch -D main
 fi
-git checkout -b master
+git checkout -b main
 
 # Build site.
 yarn install --modules-folder ./_assets/yarn
@@ -24,10 +24,10 @@ find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm 
 mv _site/* .
 rm -R _site/
 
-# Push to master.
+# Push to main.
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-git push -f -q origin master
+git push -f -q origin main
 
 # Move back to previous branch.
 git checkout -
