@@ -16,7 +16,6 @@ fi
 git checkout -b main
 
 # Build site.
-yarn install --modules-folder ./_assets/yarn
 bundle exec jekyll build
 
 # Delete and move files.
@@ -31,7 +30,6 @@ git push -f -q origin main
 
 # Move back to previous branch.
 git checkout -
-yarn install --modules-folder ./_assets/yarn
 
 echo "Deployed Successfully!"
 

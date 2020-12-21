@@ -50,7 +50,6 @@ exclude:
   - package.json
   - README.md
   - vendor/
-  - yarn.lock
 plugins:
   - jekyll-assets
   - jekyll-paginate
