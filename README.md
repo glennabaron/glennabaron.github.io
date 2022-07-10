@@ -4,15 +4,15 @@ This is my website.
 
 **First time setup**
 ```
-yarn setup
+npm run setup
 ```
 
 **Working locally**
 ```
-yarn local
+npm run local
 ```
 
 **Building for production**
 ```
-yarn publish
+npm run publish
 ```
