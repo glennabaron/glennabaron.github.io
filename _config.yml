@@ -15,7 +15,7 @@ local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 social:
   github: glennabaron
-  twitter: glennabaron
+  twitter:
   instagram:
   spotify: glennabaron
 
