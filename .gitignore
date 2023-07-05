@@ -1,13 +1,4 @@
-# Global
 *.DS_Store
 Desktop.ini
 Thumbs.db
-/node_modules/
-
-# Project
-!.keep
-*.sass-cache
-/_site/
-/_drafts/
-/.jekyll-cache/
-Gemfile.lock
+node_modules/

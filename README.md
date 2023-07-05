@@ -1,18 +1,5 @@
-### glennabaron.com
+# glennabaron.com
 
 This is my website.
 
-**First time setup**
-```
-npm run setup
-```
-
-**Working locally**
-```
-npm run local
-```
-
-**Building for production**
-```
-npm run publish
-```
+Built with [Eleventy](https://www.11ty.dev/) and based on the [Eleventy starter blog](https://github.com/11ty/eleventy-base-blog).
