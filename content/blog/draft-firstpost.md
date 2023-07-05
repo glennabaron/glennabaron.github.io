@@ -1,5 +1,7 @@
 ---
 draft: true
+permalink: false
+eleventyExcludeFromCollections: true
 title: This is my first post.
 description: This is a post on My Blog about agile frameworks.
 date: 2017-01-01

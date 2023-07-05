@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://glennabaron.com/blog/draft-firstpost/</loc>
-		<lastmod>2017-01-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://glennabaron.com/blog/draft-fourthpost/</loc>
-		<lastmod>2017-01-02</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://glennabaron.com/blog/2018-03-11-starting-small/</loc>
 		<lastmod>2018-03-11</lastmod>
 	</url>
@@ -47,6 +37,16 @@
 	</url>
 	
 	<url>
+		<loc>https://glennabaron.com/now/</loc>
+		<lastmod>2023-07-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://glennabaron.com/reading/</loc>
+		<lastmod>2023-07-05</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://glennabaron.com/tags/</loc>
 		<lastmod>2023-07-05</lastmod>
 	</url>
@@ -58,16 +58,6 @@
 	
 	<url>
 		<loc>https://glennabaron.com/tags/reading/</loc>
-		<lastmod>2023-07-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://glennabaron.com/reading/</loc>
-		<lastmod>2023-07-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://glennabaron.com/now/</loc>
 		<lastmod>2023-07-05</lastmod>
 	</url>
 </urlset>

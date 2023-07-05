@@ -1,5 +1,7 @@
 ---
 draft: true
+permalink: false
+eleventyExcludeFromCollections: true
 title: This is my fourth post.
 description: This is a post on My Blog about touchpoints and circling wagons.
 date: 2017-01-02
