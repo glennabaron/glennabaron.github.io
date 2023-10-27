@@ -19,6 +19,18 @@ What I've been reading.
   <li>Trust - Hernan Diaz</li>
   <li>The Good Enough Job - Simone Stolzoff</li>
   <li>Stay True - Hau Hsu</li>
+  <li>Enchantment - Katherine May</li>
+  <li>The Perfectionist's Guide to Losing Control - Ketherine Morgan Schafler</li>
+  <li>Tomorrow, and Tomorrow, and Tomorrow - Gabrielle Zevin</li>
+  <li>Orwell's Roses - Rebecca Solnit</li>
+  <li>Bird by Bird - Anne Lamott</li>
+  <li>Manywhere - Morgan Thomas</li>
+  <li>A Psalm for the Wild-Build - Becky Chambers</li>
+  <li>Paved Paradise - Henry Graber</li>
+  <li>A Prayer for the Crown-Shy - Becky Chambers</li>
+  <li>Exit Interview - Kristi Coulter</li>
+	<li>The Uninhabitable Earth - David Wallace-Wells</li>
+	<li>Killers of the Flower Moon - David Grann</li>
 </ul>
 
 <h4 id="2022">2022</h4>
