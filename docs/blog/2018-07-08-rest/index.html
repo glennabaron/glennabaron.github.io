@@ -325,7 +325,7 @@ code {
 /* Header */
 header {
 	display: flex;
-	gap: 1em .5em;
+	gap: 1em .5em; 
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 1em;
@@ -425,6 +425,33 @@ header {
 	margin-right: 1em;
 }
 
+/* Now Footer */
+.now-footer {
+	margin-top: 2em;
+	padding-top: 2em;
+	border-top: 1px solid #eee;
+}
+
+.now-footer p {
+	font-weight: bold;
+}
+
+.now-footer ul {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.now-footer li:not(:last-child):after {
+	content: "∙";
+	display: inline-block;
+	margin-left: .5em;
+}
+
+
 /* Direct Links / Markdown Headers */
 .header-anchor {
 	text-decoration: none;
@@ -455,7 +482,7 @@ footer {
 	padding: 1em;
 	border-top: 1px dashed var(--color-gray-20);
 	display: flex;
-  justify-content: space-between;
+  	justify-content: space-between;
 }
 
 footer ul {
@@ -519,7 +546,7 @@ footer ul {
 		</main>
 
 		<footer>
-			<p>© 2023 Built with <a href="https://www.11ty.dev/" rel="noreferrer noopener" target="_blank">Eleventy</a>. Hosted on <a href="https://github.com/glennabaron/glennabaron.github.io" rel="noreferrer noopener" target="_blank">Github</a>.</p>
+			<p>© 2024 Built with <a href="https://www.11ty.dev/" rel="noreferrer noopener" target="_blank">Eleventy</a>. Hosted on <a href="https://github.com/glennabaron/glennabaron.github.io" rel="noreferrer noopener" target="_blank">Github</a>.</p>
 			<ul class="nav">
 				<li class="nav-item"><p><a href="https://github.com/glennabaron" rel="noreferrer noopener" target="_blank" title="GitHub">GitHub</a></p></li>
 				<li class="nav-item"><p><a href="https://play.spotify.com/user/glennabaron" rel="noreferrer noopener" target="_blank" title="Spotify">Spotify</a></p></li>
