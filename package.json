@@ -3,12 +3,13 @@
 	"version": "1.0.0",
 	"description": "This is my website.",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
+		"build": "npx @11ty/eleventy && npx tailwindcss -i ./src/public/css/input.css -o ./docs/css/index.css --minify",
 		"watch": "npx @11ty/eleventy --serve",
 		"start": "npx @11ty/eleventy --serve --quiet",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+		"dev:tailwind": "npx tailwindcss -i ./src/public/css/input.css -o ./docs/css/index.css --watch"
 	},
 	"repository": {
 		"type": "git",
@@ -34,8 +35,13 @@
 		"luxon": "^3.3.0",
 		"markdown-it": "^13.0.1",
 		"markdown-it-anchor": "^8.6.7",
-		"markdown-it-attrs": "^4.1.6"
+		"markdown-it-attrs": "^4.1.6",
+		"tailwindcss": "^3.4.1"
 	},
-	"dependencies": {
+	"prettier": {
+		"trailingComma": "es5",
+		"tabWidth": 4,
+		"semi": false,
+		"singleQuote": false
 	}
 }

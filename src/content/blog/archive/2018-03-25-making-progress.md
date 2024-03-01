@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: "Five Neat Things: Making Progress"
 description: ""
 date: 2018-03-25

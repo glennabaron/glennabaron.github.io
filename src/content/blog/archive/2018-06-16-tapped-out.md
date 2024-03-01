@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: "Five Neat Things: Tapped Out"
 description: ""
 date: 2018-06-16

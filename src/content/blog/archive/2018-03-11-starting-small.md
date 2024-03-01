@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: "Five Neat Things: Starting Small"
 description: ""
 date: 2018-03-11

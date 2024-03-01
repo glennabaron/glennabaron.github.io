@@ -1,8 +1,8 @@
 ---
 layout: layouts/base.njk
-eleventyNavigation:
-  key: Now
-  order: 2
+# eleventyNavigation:
+#   key: Now
+#   order: 2
 ---
 # Now
 
