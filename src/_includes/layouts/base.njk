@@ -45,6 +45,7 @@
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
+					<li class="nav-item"><a href="/now">Now</a></li>
 				{%- for entry in collections.all | eleventyNavigation %}
 					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
@@ -60,7 +61,6 @@
 			<p>© {% year %} Built with <a href="https://www.11ty.dev/" rel="noreferrer noopener" target="_blank">Eleventy</a>. Hosted on <a href="https://github.com/glennabaron/glennabaron.github.io" rel="noreferrer noopener" target="_blank">Github</a>. <br><i>No tracking, no ads, no AI used in blog posts.</i></p>
 			<ul class="nav">
 				<li class="nav-item"><p><a href="https://github.com/glennabaron" rel="noreferrer noopener" target="_blank" title="GitHub">GitHub</a></p></li>
-				<li class="nav-item"><p><a href="https://play.spotify.com/user/glennabaron" rel="noreferrer noopener" target="_blank" title="Spotify">Spotify</a></p></li>
 				<li class="nav-item"><p><a href="/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">RSS</a></p></li>
 			</ul>
 		</footer>
